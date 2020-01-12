@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Weather App</title>
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Weather App</h1>
+    <div id="data">
+      <input id="city" placeholder="Enter a city name" onfocus="this.placeholder=''" onblur="this.placeholder='Enter a city name'"></input>
+      <button id="submit">Confirm</button>
+      <div id="result">
+        <div id="icon"></div>
+        <div id="info"></div>
+      </div>
+    </div>
+  </div>
+  <!-- JavaScript -->
+  <script src="app.js"></script>
+</body>
+</html>
